@@ -1,0 +1,22 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+line {
+  stroke: crimson;
+}
+
+g.grp1 path,
+g.grp1 circle {
+  stroke: red;
+  fill: none;
+}
+
+rect.tiles {
+  fill: white;
+}
+
+rect.tiles:hover {
+  fill: rgba(97, 65, 139, 0.7)
+}
